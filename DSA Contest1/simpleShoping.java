@@ -63,3 +63,36 @@ class Main {
 		}
 	}
 }
+
+/*
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+		 Scanner sc = new Scanner(System.in);
+        long N = sc.nextLong();
+
+        if(N<=200){
+            System.out.println(200-N);
+        }
+        else if(N<=400 && N>200){
+            System.out.println(400-N);
+        }
+        else{
+            long remainder = N%100;
+
+            if(remainder==0){
+                System.out.println(0);
+            }
+
+            else{
+                System.out.println(100-remainder);
+            }
+        }
+	
+                      // Your code here
+	}
+}*/
